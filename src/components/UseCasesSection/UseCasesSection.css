@@ -1,0 +1,48 @@
+.usecases {
+  background: linear-gradient(to bottom, #030304, #212324);
+  color: #f7f8f9;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.usecases-title {
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+  color: #f5f5f6;
+}
+
+.usecases-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.usecase-card {
+  background: linear-gradient(to right, #111827, #232e3d);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.usecase-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+.usecase-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.usecase-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.usecase-card p {
+  font-size: 1rem;
+  color: #a8b9d1;
+}

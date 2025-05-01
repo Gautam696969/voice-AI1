@@ -1,0 +1,70 @@
+.quickstart {
+  background: linear-gradient(to bottom, #030304, #212324);
+    color: #f0f0f0;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .quickstart-title {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .quickstart-subtext {
+    font-size: 1.1rem;
+    color: #9ca3af;
+    margin-bottom: 2rem;
+  }
+  
+  .quickstart-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #161b22;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  }
+  
+  .code-block {
+    text-align: left;
+    background: #0d1117;
+    color: #c9d1d9;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    font-family: "Fira Code", monospace;
+    font-size: 0.95rem;
+    overflow-x: auto;
+    border: 1px solid #30363d;
+  }
+  
+  .quickstart-buttons {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    border: none;
+    background: #2d333b;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: #444c56;
+  }
+  
+  .btn.primary {
+    background: #3a5afe;
+  }
+  
+  .btn.primary:hover {
+    background: #284dd2;
+  }
+  

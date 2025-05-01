@@ -1,0 +1,75 @@
+.cta-section {
+    background: linear-gradient(to bottom, #030304, #2a2c2d);
+    color: #f3f4f6;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .cta-title {
+    font-size: 2.3rem;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(to right, #22d3ee, #818cf8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .cta-subtext {
+    font-size: 1.1rem;
+    color: #9ca3af;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .cta-form input {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 999px;
+    width: 300px;
+    background: #1a1a1d;
+    color: #f3f4f6;
+    outline: none;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .primary-btn,
+  .secondary-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 999px;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease;
+  }
+  
+  .primary-btn {
+    background: #3b82f6;
+    color: white;
+  }
+  
+  .primary-btn:hover {
+    background: #2563eb;
+  }
+  
+  .secondary-btn {
+    background: transparent;
+    border: 1px solid #3b82f6;
+    color: #3b82f6;
+  }
+  
+  .secondary-btn:hover {
+    background: #1e3a8a;
+    color: white;
+  }
+  

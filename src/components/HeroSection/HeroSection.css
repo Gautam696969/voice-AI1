@@ -1,0 +1,125 @@
+/* HeroSection.css */
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .hero {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-container {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+  }
+  
+  @media (min-width: 768px) {
+    .hero-container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  .hero-content {
+    flex: 1;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  .hero-content h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #ccc;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 50px;
+    background: #ffffff22;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .btn:hover {
+    background: #ffffff44;
+    transform: translateY(-2px);
+  }
+  
+  .btn.primary {
+    background: #4a90e2;
+  }
+  
+  .btn.primary:hover {
+    background: #357ab8;
+  }
+  
+  .hero-visual {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .code-snippet {
+    background: #1e1e1e;
+    color: #dcdcdc;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    font-family: monospace;
+    font-size: 0.9rem;
+    max-width: 500px;
+    width: 100%;
+    overflow-x: auto;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .waveform {
+    display: flex;
+    align-items: flex-end;
+    height: 60px;
+    gap: 4px;
+    max-width: 500x;
+    width: 100%;
+  }
+  
+  .waveform span {
+    width: 4px;
+    background: #4a90e2;
+    border-radius: 2px;
+    animation: pulse 1s infinite ease-in-out alternate;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scaleY(0.5);
+    }
+    100% {
+      transform: scaleY(1.2);
+    }
+  }
+  

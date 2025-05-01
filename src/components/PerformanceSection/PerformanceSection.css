@@ -1,0 +1,47 @@
+.performance {
+    background: linear-gradient(to bottom, #030304, #212324);
+    color: #f3f4f6;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .performance-title {
+    font-size: 2.3rem;
+    margin-bottom: 3rem;
+    background: linear-gradient(to right, #22d3ee, #818cf8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .performance-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .metric-card {
+    background: #1a1a1d;
+    padding: 2rem;
+    border-radius: 14px;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+  }
+  
+  .metric-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .metric-stat {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #34d399;
+    margin-bottom: 0.5rem;
+  }
+  
+  .metric-label {
+    font-size: 1rem;
+    color: #9ca3af;
+  }
+  

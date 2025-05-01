@@ -1,0 +1,69 @@
+.dev-support {
+    background: linear-gradient(to bottom, #030304, #212324);
+    color: #f3f4f6;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .dev-title {
+    font-size: 2.3rem;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(to right, #818cf8, #06b6d4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .dev-subtext {
+    font-size: 1.1rem;
+    color: #9ca3af;
+    margin-bottom: 2.5rem;
+  }
+  
+  .dev-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto 2.5rem auto;
+  }
+  
+  .dev-card {
+    background: #1e1f23;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .dev-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 16px rgba(99, 102, 241, 0.3);
+  }
+  
+  .dev-card h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #e0e7ff;
+  }
+  
+  .dev-card p {
+    font-size: 0.95rem;
+    color: #cbd5e1;
+  }
+  
+  .dev-btn {
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: #3b82f6;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .dev-btn:hover {
+    background: #2563eb;
+  }
+  
