@@ -2,11 +2,12 @@
 body {
     margin: 0;
     font-family: "Segoe UI", sans-serif;
+    background-color: red;
   }
   
   .hero {
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-
+    /* background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); */
+    background-color: red;
     color: white;
     padding: 4rem 2rem;
     display: flex;
@@ -77,7 +78,7 @@ body {
   }
   
   .btn.primary {
-    background: #e71834;
+    background: #18c4aaa2;
   }
   
   .btn.primary:hover {
